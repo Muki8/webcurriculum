@@ -1,0 +1,70 @@
+/* Estilos CSS adicionales para tu página */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #007bff; /* Azul */
+}
+
+/* Estilos para el currículum */
+#curriculum {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Estilos para la calculadora */
+form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+input[type="number"], select {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Azul oscuro */
+}
+
+/* Estilos para el resultado */
+#resultado {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Estilos CSS para la imagen del currículum */
+img {
+    max-width: 100px; /* Establece el ancho máximo de la imagen */
+    max-height: 100px; /* Establece la altura máxima de la imagen */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    display: block; /* Hace que la imagen se comporte como un bloque */
+}
+
+
+
